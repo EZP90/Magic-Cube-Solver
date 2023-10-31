@@ -1,6 +1,5 @@
 import check
-#from test import test
-#test.test() 
+import test.test as test
 #just a test on how to import subfolder files
 
 dimension = 3
@@ -16,6 +15,7 @@ sequence = [3, 2, 2, 3, 3, 2, 3, 2, 2, 3, 2]
 # print(sequence)
 
 check.check()
+test.test()
 
 
 
